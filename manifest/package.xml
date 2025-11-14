@@ -9,10 +9,14 @@
         <members>Queueable_NotifyAdmin</members>
         <members>Batch_RecalculateInvoiceTotals</members>
         <members>Schedule_RecalculateInvoices</members>
+        <members>AccountCalloutHandlerTest</members>
+        <members>BatchInactiveContactsTest</members>
+        <members>Queueable_CreateTasksTest_Full</members>
+        <members>Schedule_RecalculateInvoicesTest</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
+
         <name>ApexComponent</name>
     </types>
     <types>

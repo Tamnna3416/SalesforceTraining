@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="Accounts & Opportunities" icon-name="standard:account">
+
+        <lightning-datatable 
+            key-field="Id"
+            data={accounts}
+            columns={columns}
+            onrowaction={handleRowAction}>
+        </lightning-datatable>
+
+        <template if:true={selectedOpportunities}>
+            <div class="slds-m-top_medium slds-box">
+                <h3 class="slds-text-heading_small">
+                    Opportunities for {selectedAccountName}
+                </h3>
+
+                <lightning-datatable 
+                    key-field="Id"
+                    data={selectedOpportunities}
+                    columns={oppColumns}>
+                </lightning-datatable>
+            </div>
+        </template>
+
+    </lightning-card>
+</template>
