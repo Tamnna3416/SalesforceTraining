@@ -16,6 +16,9 @@
         <members>OpportunityHandler</members>
         <members>AccountHandler</members>
         <members>AssignOpportunityTeamMembers</members>
+        <members>OpportunityOwnerDepartureScheduler</members>
+        <members>OpportunityOwnerDepartureBatch</members>
+        <members>OpportunityOwnerEmailService</members>
         <name>ApexClass</name>
     </types>
     <types>
