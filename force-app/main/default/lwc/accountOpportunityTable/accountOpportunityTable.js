@@ -24,6 +24,7 @@ export default class AccountOpportunityTable extends LightningElement {
         { label: 'Close Date', fieldName: 'CloseDate', type: 'date' }
     ];
 
+    // Load Accounts
     @wire(getAccounts)
     wiredAccounts({ data }) {
         console.log('wiredAccounts');

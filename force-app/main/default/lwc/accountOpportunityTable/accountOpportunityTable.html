@@ -1,6 +1,7 @@
 <template>
     <lightning-card title="Accounts & Opportunities" icon-name="standard:account">
 
+        <!-- Account Table -->
         <lightning-datatable 
             key-field="Id"
             data={accounts}
@@ -8,6 +9,7 @@
             onrowaction={handleRowAction}>
         </lightning-datatable>
 
+        <!-- Child Opportunity Table -->
         <template if:true={selectedOpportunities}>
             <div class="slds-m-top_medium slds-box">
                 <h3 class="slds-text-heading_small">

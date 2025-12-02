@@ -31,7 +31,7 @@
         <members>AccountDefaultRating</members>
         <members>AccountPreventDeleteWithOpps</members>
         <members>InvoiceTrigger</members>
-        <members>AccountTrigger</members>       
+        <members>AccountTrigger</members>    
         <name>ApexTrigger</name>
     </types>
     <types>
