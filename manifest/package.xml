@@ -19,6 +19,8 @@
         <members>OpportunityOwnerDepartureScheduler</members>
         <members>OpportunityOwnerDepartureBatch</members>
         <members>OpportunityOwnerEmailService</members>
+        <members>ProductUsageBatchScheduler</members>
+        <members>ProductUsageBatch</members>
         <name>ApexClass</name>
     </types>
     <types>
