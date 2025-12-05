@@ -21,6 +21,7 @@
         <members>OpportunityOwnerEmailService</members>
         <members>ProductUsageBatchScheduler</members>
         <members>ProductUsageBatch</members>
+        <members>DiscountValidator</members>
         <name>ApexClass</name>
     </types>
     <types>

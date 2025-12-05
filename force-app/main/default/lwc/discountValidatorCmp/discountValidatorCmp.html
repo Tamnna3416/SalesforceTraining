@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Discount Validator">
+        <div class="slds-p-around_medium">
+
+            <p>Discount from record: <strong>{discount}%</strong></p>
+
+            <lightning-button
+                label="Validate Discount"
+                onclick={handleValidate}
+                class="slds-m-top_small">
+            </lightning-button>
+
+            <template if:true={result}>
+                <div class="slds-m-top_medium">
+                    <span class={badgeClass}>{result}</span>
+                </div>
+            </template>
+
+        </div>
+    </lightning-card>
+</template>
